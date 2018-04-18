@@ -32,13 +32,55 @@ ul.topnav li.topnav-right {
     float: right;
 }
 
-ul.topnav li a {
+ul.topnav li {
     display: block;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
+    color: #666;
+
+}
+ul.topnav li:hover{
+    background-color: #0080ff;
+    color:#fff;
+}
+ul.topnav li.dropdownIcon{
+    display: none;
+}
 
 
+/*#### Mobile rasponsive #####*/
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownIcon {
+
+        display: block;
+        float:right;
+    }
+    ul.topnav.rasponsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.rasponsive {
+    position:relative;
+
+    }
+
+    ul.topnav.rasponsive li{
+    display: inline;
+    float:none;
+
+    }
+
+    ul.topnav.rasponsive li a{
+    display: block;
+    text-align:left;
+
+    }
 }
