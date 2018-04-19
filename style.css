@@ -16,6 +16,14 @@ body {
     padding-bottom:4%;
 
 }
+label {
+    font-size: 35px;
+    font-weight: 600;
+}
+p {
+    font-size: 28px;
+    line-height: 1.2;
+}
 
 /*######## Nav bar #############*/
 
@@ -61,6 +69,14 @@ ul.topnav li.dropdownIcon{
 #section-1-gradient {
     background: linear-gradient(#076DFF, grey);
 }
+div.box{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px 0 rgba(0,0,0,.1);
+}
+div.icon {
+    widht: 100%;
+}
 .row{
     width: 100%;
     display:flex;
@@ -101,6 +117,12 @@ h1.large {
 
 
 }
+h1.section2Header{
+    font-size: 65px;
+    text-align: center;
+}
+
+
 form h2 {
     color: #fff;
 }
